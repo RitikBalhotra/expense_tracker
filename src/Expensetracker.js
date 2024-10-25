@@ -68,7 +68,7 @@ const Expensetracker = () => {
 
   useEffect(() => {
     if (expenses.length > 0) {
-      console.log("Expenses updated", expenses);
+      console.log("Expenses updated")
     }
   }, [expenses]);
   return (
